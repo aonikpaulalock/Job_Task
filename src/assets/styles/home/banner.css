@@ -1,0 +1,36 @@
+.banner-container {
+  height: 870px;
+  background: url("../../image/bg.png") no-repeat ;
+  object-fit: contain;
+}
+
+.banner-title {
+  font: normal 500 1.6rem/2.4rem var(--font-family);
+  letter-spacing: 1.6px;
+  color: #6C6873;
+}
+
+.banner-heading {
+  font: normal 800 5.6rem/6.8rem var(--font-family);
+  color: var(--primary-color);
+  margin: 1.6rem 0 2.4rem 0;
+}
+.banner-subtitle {
+  font: normal 500 1.8rem/2.8rem var(--font-family);
+  color: var(--primary-color);
+  margin-bottom: 2.4rem;
+}
+.check-list {
+  font-size: 20px;
+  color: var( --secondary-color);
+  margin-right: 1.2rem;
+}
+.banner-button {
+  outline: 0;
+  border: 0;
+  background-color: var( --secondary-color);
+  padding: 1.2rem 2.4rem;
+  font: normal 600 1.6rem/2.4rem var(--font-family);
+  color: var(--white);
+  margin-top: 4rem;
+}
