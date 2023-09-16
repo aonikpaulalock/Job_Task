@@ -2,7 +2,7 @@ import React from 'react';
 import "../../assets/styles/home/revolution.css"
 const Revolution = () => {
   return (
-    <section className='container p-sm-0 p-5'>
+    <section className='container px-sm-0 px-5' id="revolution">
       <div className='revolution-container'>
         <div className="row">
           <div className="col-lg-8">

@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import { banner } from "../../data/banner";
 import "../../assets/styles/home/banner.css"
 import { AiFillCheckCircle } from 'react-icons/ai';
@@ -6,7 +6,7 @@ const Banner = () => {
 
   return (
     <section className="banner-container d-flex justify-content-center align-items-center">
-      <div className="container p-sm-0 p-5">
+      <div className="container px-sm-0 px-5">
         <div className="row">
           <div className="col-lg-7 col-md-6 pe-0 pe-md-3 pe-lg-5">
             <div className="banner-content">

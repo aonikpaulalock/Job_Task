@@ -28,21 +28,21 @@ body {
 /* Media Queries */
 @media (max-width:1000px) {
   html {
-    font-size: 56%;
+    font-size: 55%;
   }
 }
 @media (max-width:800px) {
   html {
-    font-size: 50%;
+    font-size: 47%;
   }
 }
 @media (max-width:600px) {
   html {
-    font-size: 44%;
+    font-size: 40%;
   }
 }
 @media (max-width:400px) {
   html {
-    font-size: 40%;
+    font-size: 35%;
   }
 }

@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import "../assets/styles/home/footer.css"
 import logo from "../assets/image/result/logo-2.png"
 import { Link } from "react-router-dom";
@@ -7,8 +7,8 @@ const Footer = () => {
     <section className="py-5">
       <div className="container p-sm-0 p-5">
         <div className="row">
-          <div className="col-md-3 col-sm-6 col-12">
-            <div className="footer-logo-content">
+          <div className="col-md-3 col-sm-6 col-6">
+            <div className="footer-logo-content pb-sm-0 pb-5">
               <img src={logo} alt="" className="img-fluid" />
               <div>
                 <button className="footer-login-button">Login</button>
@@ -16,7 +16,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-sm-6 col-12">
+          <div className="col-md-3 col-sm-6 col-6">
             <ul className="shared-unordered">
               <p className="shared-footer-title">Use cases</p>
               <li>
@@ -34,7 +34,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-3 col-sm-6 col-6">
-            <ul className="shared-unordered">
+            <ul className="shared-unordered pt-sm-0 pt-5">
               <p className="shared-footer-title">product</p>
               <li>
                 <Link to="#" className="shared-footer-list">How it works</Link>
@@ -50,7 +50,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-3 col-sm-6 col-6 ">
-            <ul className="shared-unordered">
+            <ul className="shared-unordered pt-sm-0 pt-5">
               <p className="shared-footer-title">resources</p>
               <li>
                 <Link to="#" className="shared-footer-list">Documentation</Link>

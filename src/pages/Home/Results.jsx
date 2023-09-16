@@ -1,10 +1,11 @@
+import React from 'react';
 import Result from "../../components/Result";
 import { results } from "../../data/results";
 
 
 const Results = () => {
   return (
-    <section className="container p-sm-0 p-5">
+    <section className="container px-sm-0 px-5" id="result">
       <div className="results-contain">
         <h4 className="banner-title">RESULTS</h4>
         <h1 className="banner-heading">What can you expect?</h1>

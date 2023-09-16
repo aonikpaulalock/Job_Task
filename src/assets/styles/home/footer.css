@@ -20,7 +20,9 @@
   margin: 0;
   border-radius: .4rem;
 }
-
+.shared-unordered{
+  padding-left: 0;
+}
 .shared-unordered li {
   list-style: none;
 }

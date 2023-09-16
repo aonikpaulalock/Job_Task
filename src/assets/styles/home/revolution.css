@@ -4,6 +4,7 @@
   border-radius: 1.2rem;
   margin: 12rem 0;
   padding: 4.8rem 5.6rem;
+  background-size: cover;
 }
 
 .revolution-heading {
@@ -24,4 +25,13 @@
   padding: 1.2rem 2.4rem;
   font: normal 600 1.6rem/2.4rem var(--font-family);
   color: var(--primar-color);
+}
+@media (max-width:600px) {
+  .revolution-container {
+    margin: 7rem 0;
+  }
+  .revolution-button {
+   margin-top: 5rem;
+   width: 100%;
+  }
 }

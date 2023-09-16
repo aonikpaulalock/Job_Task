@@ -59,3 +59,11 @@
 
 
 /* Media Queries */
+@media (max-width:500px) {
+  .user-position {
+    width: 100%;
+  }
+  .banner-button {
+   width: 100%;
+  }
+}
