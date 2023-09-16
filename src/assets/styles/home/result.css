@@ -1,0 +1,31 @@
+.results-contain{
+  text-align: center;
+  margin: 12rem 0 15rem 0;
+}
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 2.2rem;
+}
+.result-card {
+  border-radius: 12px;
+  background: #E9EBEE;
+  padding: 3rem 1.5rem;
+}
+.image-top {
+  text-align: center;
+  margin-top: -7.5rem;
+}
+.result-card-heading {
+  font: normal 800 2rem/2.8rem var(--font-family);
+  margin-top: 2.4rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+.result-card-title {
+  font: normal 500 1.6rem/2.4rem var(--font-family);
+  letter-spacing: 0.064px;
+  text-align: center;
+  color: var(--tetriary-color);
+  margin: 1.6rem 0;
+}
