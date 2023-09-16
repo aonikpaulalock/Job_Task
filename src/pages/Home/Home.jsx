@@ -5,11 +5,11 @@ import Revolution from './Revolution';
 
 const Home = () => {
   return (
-    <div>
+    <section>
       <Banner/>
       <Results/>
       <Revolution/>
-    </div>
+    </section>
   );
 };
 

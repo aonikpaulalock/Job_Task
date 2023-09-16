@@ -4,7 +4,7 @@ import { results } from "../../data/results";
 
 const Results = () => {
   return (
-    <div className="container">
+    <section className="container p-sm-0 p-5">
       <div className="results-contain">
         <h4 className="banner-title">RESULTS</h4>
         <h1 className="banner-heading">What can you expect?</h1>
@@ -17,7 +17,7 @@ const Results = () => {
           ></Result>)
         }
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -34,3 +34,28 @@
   color: var(--white);
   margin-top: 4rem;
 }
+.banner-image {
+  position: relative;
+}
+.user-position {
+  width: 83%;
+  border-radius: 1.2rem;
+  background:var(--white);
+  box-shadow: 0px 2px 4px 0px rgba(31, 25, 43, 0.08), 0px 4px 32px 0px rgba(31, 25, 43, 0.16);
+  padding: 1.6rem 2rem;
+  position: absolute;
+  top: 68%;
+}
+.user-name {
+  font: normal 600 1.6rem/2.4rem var(--font-family);
+  letter-spacing: 0.064px;
+  color: var(--primary-color);
+}
+.user-des {
+  font: normal 600 1.4rem/2rem var(--font-family);
+  letter-spacing: 0.056px;
+  color: var(--tetriary-color);
+}
+
+
+/* Media Queries */

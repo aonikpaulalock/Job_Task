@@ -5,10 +5,10 @@ import { AiFillCheckCircle } from 'react-icons/ai';
 const Banner = () => {
 
   return (
-    <div className="banner-container d-flex justify-content-center align-items-center ">
-      <div className="container">
+    <section className="banner-container d-flex justify-content-center align-items-center">
+      <div className="container p-sm-0 p-5">
         <div className="row">
-          <div className="col-md-7 pe-5">
+          <div className="col-lg-7 col-md-6 pe-0 pe-md-3 pe-lg-5">
             <div className="banner-content">
               <h4 className="banner-title">{banner.title}</h4>
               <h1 className="banner-heading">{banner.heading}</h1>
@@ -26,12 +26,18 @@ const Banner = () => {
               <button className="banner-button">Book a Demo</button>
             </div>
           </div>
-          <div className="col-md-5">
-            <img src={banner.img} alt="img" className="img-fluid" />
+          <div className="col-lg-5 col-md-6">
+            <div className="banner-image">
+              <img src={banner.img} alt="img" className="img-fluid" />
+              <div className="user-position">
+                <h1 className="user-name">{banner.user.name}</h1>
+                <p className="user-des">{banner.user.des}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

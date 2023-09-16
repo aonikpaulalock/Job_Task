@@ -1,6 +1,6 @@
 .nav-bg {
   background-color: var(--primary-color);
-  height: 6.5rem;
+  padding: 1.3rem 2rem !important;
 }
 
 .nav-anchor {
@@ -28,6 +28,3 @@
   line-height: 2rem;
   color: var(--white);
 }
-/* .Contact-header-button:hover {
-  background: #2d343fd2;
-} */

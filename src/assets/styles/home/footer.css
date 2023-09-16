@@ -1,0 +1,51 @@
+.footer-login-button {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  font: normal 600 1.4rem/2rem var(--font-family);
+  color: var(--primary-color);
+  border-radius: .4rem;
+  border: .1rem solid #D2D3D4;
+  margin: 2.4rem .8rem 0 0;
+}
+
+.footer-demo-button {
+  outline: 0;
+  border: 0;
+  background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+  font: normal 600 1.4rem/2rem var(--font-family);
+  color: var(--white);
+  margin: 0;
+  border-radius: .4rem;
+}
+
+.shared-unordered li {
+  list-style: none;
+}
+
+.shared-footer-title {
+  font: normal 500 1.2rem/1.8rem var(--font-family);
+  color: var(--tetriary-color);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.shared-footer-list {
+  text-decoration: none;
+  font: normal 500 1.4rem/3rem var(--font-family);
+  color: var(--primary-color);
+}
+
+.footer-hiring {
+  border-radius: .4rem;
+  padding: .2rem .4rem;
+  border: 0;
+  outline: 0;
+  font: normal 500 1.2rem/1.8rem var(--font-family);
+  letter-spacing: 0.072px;
+  background-color: #ddd;
+  margin-left: .5rem;
+  color: var(--secondary-color);
+}
